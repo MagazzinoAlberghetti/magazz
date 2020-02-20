@@ -43,6 +43,12 @@
         color: white;
 
     }
+    .lungo{
+        height: 700px;
+    }
+    .corto{
+        height: 390px;
+    }
 
     .contenitore input {
         width: 100%;

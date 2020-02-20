@@ -1,5 +1,5 @@
 <?
-    require_once('Utente_model.php');
+    require_once('../model/Utente_model.php');
     class Utente
     {
         public static function get_utente_by_email($email, $pswd)

@@ -34,7 +34,6 @@
         border: 1px solid black;
         margin: auto;
         width: 320px;
-        height: 700px;
         border-radius: 0px 0px 40px 40px;
         padding: 20px;
         background-color: rgba(0, 0, 0, 0.8);
@@ -42,6 +41,14 @@
 
         color: white;
 
+    }
+
+    .lungo {
+        height: 700px;
+    }
+
+    .corto{
+        height: 500px;
     }
 
     .contenitore input {

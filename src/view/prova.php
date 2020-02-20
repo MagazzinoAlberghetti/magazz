@@ -14,31 +14,31 @@ session_start();
 	<div class="pre_contenitore">
 		<p>Registrazione</p>
 	</div>
-	<div class="contenitore">
+	<div class="contenitore lungo">
 
 		<form action="controllocaptcha.php" method="post">
 
 			<p>Inserisci le tue credenziali</p>
 			<p>
 				<label>Nome</label><br>
-				<input type="text" name="NomeUtente" class="nomeutente" placeholder="Nome Utente">
+				<input type="text" name="NomeUtente" class="nomeutente" placeholder="Nome Utente" required>
 			</p>
 			<p>
 				<label>Cognome </label><br>
-				<input type="text" name="CognomeUtente" class="congomeutente" placeholder="Cognome Utente">
+				<input type="text" name="CognomeUtente" class="congomeutente" placeholder="Cognome Utente" required>
 			</p>
 			<p>
 				<label>Email </label><br>
-				<input type="text" name="EmailUtente" class="emailutente" placeholder="Email">
+				<input type="text" name="EmailUtente" class="emailutente" placeholder="Email" required>
 			</p>
 			<p>
 				<label>Password </label><br>
-				<input type="text" name="PAssword" class="password" placeholder="Password">
+				<input type="text" name="PAssword" class="password" placeholder="Password" required>
 			</p>
 
 			<p><img src="./captcha.php" /></p>
-			Controllo Robot <input type="text" name="captcha" class="captcha" placeholder="Inserire Codice" /><br><br>
-			<input type="submit" name="btn" value="invia">
+			Controllo Robot <input type="text" name="captcha" class="captcha" placeholder="Inserire Codice" required/><br><br>
+			<input type="submit" name="invia" value="invia">
 			<?
 						if($_SESSION['error'] == '404'){
 							echo "<div style='margin:1px; padding:1px; background-color:#FF0000''> 

@@ -42,6 +42,12 @@
         color: white;
 
     }
+    .lungo{
+        height: 700px;
+    }
+    .corto{
+        height: 390px;
+    }
 
     .lungo {
         height: 700px;

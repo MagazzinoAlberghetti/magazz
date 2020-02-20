@@ -6,7 +6,7 @@
         {
             $profilo = Utente_model::get_utente_by_email($email, $pswd);
             
-            return ($profilo)? $profilo : False;
+            return ($profilo) ? $profilo : false;
         }
 
         public static function b(){
